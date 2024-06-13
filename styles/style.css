@@ -1,1 +1,62 @@
 /* место для вашего кода */
+
+/* header */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 391px;
+  align-content: center;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 135px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+/* cover section */
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  margin: 0;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+}
+
+/* lots section */
+
+.lots {
+  display: flex;
+  flex-direction: column;
+}
+
+.lots__cards {
+  display: flex;
+}
+
+/* about section */
+
+/* footer */
