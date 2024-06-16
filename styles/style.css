@@ -59,4 +59,23 @@
 
 /* about section */
 
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about__logo {
+  display: grid;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  place-content: center center;
+}
+
+.logo-white {
+  width: 148px;
+  height: 114px;
+}
+
 /* footer */
