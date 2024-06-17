@@ -11,21 +11,23 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__list-item"><a href="">главная</a></li>
-          <li class="menu__list-item"><a href="">посмотреть лоты</a></li>
-          <li class="menu__list-item"><a href="">об аукционе</a></li>
-        </ul>
-      </nav>
-      <a class="logo" href="#">
-        <img src="./images/logo-black.svg" alt="Оно тебе надо логотип">
-      </a>
-      <address class="adress">
-        <a class="phone-number" href="tel:+99995555555">+9 999 555 55 55</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="adress__text">наб. Принсенграхт 263- 265, Амстердам</p>
-      </address>
+      <div class="header__content">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item" ><a href="">главная</a></li>
+            <li class="menu__list-item"><a href="">посмотреть лоты</a></li>
+            <li class="menu__list-item"><a href="">об аукционе</a></li>
+          </ul>
+        </nav>
+        <a class="logo" href="#">
+          <img src="./images/logo-black.svg" alt="Оно тебе надо логотип">
+        </a>
+        <address class="adress">
+          <a class="phone-number" href="tel:+99995555555">+9 999 555 55 55</a>
+          <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="adress__text">наб. Принсенграхт 263-<br> 265, Амстердам</p>
+        </address>
+      </div>
     </header>
     <main class="main">
       <section class="cover">
@@ -42,19 +44,21 @@
         <div class="lots__content">
           <h2 class="lots__title">Лоты</h2>
           <div class="lots__cards">
-            <article class="card">
+            <article class="card card__type-film">
+              <div class="card__overlay"></div>
               <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
               <p class="card__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article>
-            <article class="card">
+            <article class="card card__type-book">
               <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
               <p class="card__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article>
-            <article>
+            <article class="card card__type-picture">
               <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
               <p class="card__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </article>
           </div>
+          <p class="lots__more">посмотреть больше</p>
         </div>
       </section>
       <section class="about">
