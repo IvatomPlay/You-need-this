@@ -11,28 +11,38 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__content">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__list-item" ><a href="">главная</a></li>
-            <li class="menu__list-item"><a href="">посмотреть лоты</a></li>
-            <li class="menu__list-item"><a href="">об аукционе</a></li>
-          </ul>
-        </nav>
-        <a class="logo" href="#">
-          <img src="./images/logo-black.svg" alt="Оно тебе надо логотип">
-        </a>
-        <address class="adress">
-          <a class="phone-number" href="tel:+99995555555">+9 999 555 55 55</a>
-          <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <p class="adress__text">наб. Принсенграхт 263-<br> 265, Амстердам</p>
-        </address>
-      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item" ><a href="">главная</a></li>
+          <li class="menu__list-item underlined"><a href="">посмотреть лоты</a></li>
+          <li class="menu__list-item underlined"><a href="">об аукционе</a></li>
+        </ul>
+      </nav>
+      <a class="logo" href="#">
+        <img src="./images/logo-black.svg" alt="Оно тебе надо логотип">
+      </a>
+      <address class="adress">
+        <ul class="adress__list">
+          <li><a class="underlined" href="tel:+99995555555">+9 999 555 55 55</a></li>
+          <li><a class="underlined" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li>наб. Принсенграхт 263- 265, Амстердам</li>
+        </ul>
+      </address>
     </header>
     <main class="main">
       <section class="cover">
         <div class="cover__content">
-          <h1 class="cover__title">оно тебе надо</h1>
+          <h1 class="cover__title">
+            <span class="accent-span">о
+              <span class="latter-spaced">но</span>
+            </span>
+            <span class="accent-span span-center">теб
+              <span class="latter-spaced">е</span>
+            </span>
+            <span class="accent-span span-right">
+              <span class="extra-space">н</span>
+              адо</span>
+          </h1>
           <div class="cover__description">
             <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
             <button class="bet-button" type="button" name="сделать ставку">сделать ставку</button>
@@ -77,21 +87,23 @@
     </main>
     <footer class="footer">
       <address class="adress">
-        <a class="phone-number" href="tel:+99995555555">+9 999 555 55 55</a>
-        <a class="email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p class="adress__text">наб. Принсенграхт 263- 265, Амстердам</p>
+        <ul class="adress__list">
+          <li><a class="underlined" href="tel:+99995555555">+9 999 555 55 55</a></li>
+          <li><a class="underlined" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li>наб. Принсенграхт 263- 265, Амстердам</li>
+        </ul>
       </address>
       <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__list-item">главная</li>
-          <li class="menu__list-item">посмотреть лоты</li>
-          <li class="menu__list-item">об аукционе</li>
+        <ul class="menu__list footer__menu">
+          <li class="menu__list-item" ><a href="">главная</a></li>
+          <li class="menu__list-item underlined"><a href="">посмотреть лоты</a></li>
+          <li class="menu__list-item underlined"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <div class="socials">
-        <a class="youtube" href="www.youtube.com" target="_blank">yt</a>
-        <a class="vk" href="www.vk.ru" target="_blank">vk</a>
-        <a class="pinterest" href="www.pinterest.com" target="_blank">pt</a>
+        <a class="youtube__link" href="www.youtube.com" target="_blank"><img class="youtube__icon" src="./images/yt.svg" alt="иконка youtube"></a>
+        <a class="vk__link" href="www.vk.ru" target="_blank"><img class="vk__icon" src="./images/vk.svg" alt="иконка ВК"></a>
+        <a class="pinterest__link" href="www.pinterest.com" target="_blank"><img class="pinterest__icon" src="./images/pinterest.svg" alt="иконка pinterest"></a>
       </div>
     </footer>
   </body>
