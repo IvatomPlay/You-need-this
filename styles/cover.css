@@ -1,0 +1,41 @@
+.cover {
+    position: relative;
+    min-width: 1100px;
+    min-height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+  }
+  
+  .cover__content {
+    display: flegrid;
+    grid-template-rows:  1fr 1fr;
+  }
+  
+  .cover__title {
+    font-family: 'Raleway';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .accent-span {
+    display: block;
+  }
+  
+  .span-center {
+    text-align: center;
+  }
+  
+  .span-right {
+    text-align: right;
+  }
+  
+  .latter-spaced {
+    letter-spacing: 0.3em;
+  }
+  
+  .extra-space {
+    letter-spacing: 0.6em;
+  }  
