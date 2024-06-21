@@ -1,4 +1,5 @@
 .header {
+  height: 293px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-around;
@@ -21,8 +22,17 @@
   list-style: circle;
 }
 
+.menu__list-item {
+  border-bottom: 1px solid black;
+}
+
+.menu__list-item-link {
+  
+}
+
 .menu__list-item:first-child {
   list-style: none;
+  border: none;
 }
 
 .logo {

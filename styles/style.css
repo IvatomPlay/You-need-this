@@ -3,3 +3,11 @@
 @import url(./lots.css);
 @import url(./about.css);
 @import url(./footer.css);
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.6;
+}

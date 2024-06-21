@@ -1,7 +1,7 @@
 .lots {
-  max-width: 1052px;
+  width: 100%;
   margin: 0 auto;
-  padding-top: 179px;
+  padding: 179px 24px 0;
 }
 
 .lots__content {
