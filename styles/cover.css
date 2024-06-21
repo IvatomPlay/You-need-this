@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-.cover__title {
+.cover__content-title {
   margin-bottom: 135px;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@
   letter-spacing: 0;
 }
 
-.cover__description {
+.cover__content-description {
   display: flex;
   justify-content: flex-end;
   gap: 80px;
@@ -66,7 +66,7 @@
   z-index: 2;
 }
 
-.cover__description-text {
+.cover__content-description-text {
   margin-left: 24px;
   font-family: 'Raleway';
   font-size: 22px;

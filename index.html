@@ -11,7 +11,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
+      <nav class="header__menu">
         <ul class="menu__list">
           <li class="menu__list-item"><a class="menu__list-item-link" href="">главная</a></li>
           <li class="menu__list-item"><a class="menu__list-item-link" href="">посмотреть лоты</a></li>
@@ -32,13 +32,13 @@
     <main class="main">
       <section class="cover">
         <div class="cover__content">
-          <h1 class="cover__title">
+          <h1 class="cover__content-title">
             <span class="accent-span span-left">о<span class="letter-spacing-extended">но</span></span>
             <span class="accent-span span-center">те<span class="letter-spacing-extended">бе</span></span>
             <span class="accent-span span-right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
           </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <div class="cover__content-description">
+            <p class="cover__content-description-text">Аукцион вещей, в которые никто не верил</p>
             <button class="bet-button" type="button" name="сделать ставку">сделать ставку</button>
           </div>
           <div class="overlay"></div>
@@ -46,13 +46,14 @@
       </section>
       <section class="lots">
         <div class="lots__content">
-          <h2 class="lots__title">Лоты</h2>
+          <h2 class="lots__content-title">Лоты</h2>
           <ul class="lots__cards-list">
             <li class="cards__list-item">
               <a class="cards__list-item-link" href="#">
                 <article class="card card__type-film">
                   <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                   <p class="card__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+                  <div class="overlay"></div>
                 </article>
               </a>
             </li>
@@ -61,6 +62,7 @@
                 <article class="card card__type-book">
                   <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                   <p class="card__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+                  <div class="overlay"></div>
                 </article>
               </a>
             </li>
@@ -69,6 +71,7 @@
                 <article class="card card__type-picture">
                   <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                   <p class="card__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+                  <div class="overlay"></div>
                 </article>
               </a>
             </li>
@@ -100,9 +103,9 @@
       </address>
       <nav class="menu">
         <ul class="menu__list footer__menu">
-          <li class="menu__list-item" ><a href="">главная</a></li>
-          <li class="menu__list-item underlined"><a href="">посмотреть лоты</a></li>
-          <li class="menu__list-item underlined"><a href="">об аукционе</a></li>
+          <li class="menu__list-item"><a href="">главная</a></li>
+          <li class="menu__list-item underlined no-circle"><a href="">посмотреть лоты</a></li>
+          <li class="menu__list-item underlined no-circle"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <div class="socials">

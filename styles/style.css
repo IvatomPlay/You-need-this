@@ -4,6 +4,14 @@
 @import url(./about.css);
 @import url(./footer.css);
 
+.underlined {
+  border-bottom: 1px solid black;
+}
+
+.no-circle {
+  list-style: none;
+}
+
 .overlay {
   position: absolute;
   inset: 0;
