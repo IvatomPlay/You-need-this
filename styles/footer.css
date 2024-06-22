@@ -1,5 +1,9 @@
 .footer {
+  width: 100%;
   padding: 180px 50px 88px;
+}
+
+.footer__content {
   display: flex;
   justify-content: space-between;
 }
@@ -14,18 +18,11 @@
 
 .socials {
   display: flex;
-  gap: 30px;
+  gap: 48px;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.youtube__icon {
-  width: 50px;
-}
-
-.vk__icon {
-  width: 50px;
-}
-
-.pinterest__icon {
+.socials-item {
   width: 50px;
 }

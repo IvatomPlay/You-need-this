@@ -1,20 +1,23 @@
 .about {
+  max-width: 1340px;
   padding: 181px 71px 0;
 }
 
 .about__content {
   display: grid;
-  grid-template-columns: 240px 693px;
-  gap: 72px;
+  grid-template-columns: 430px auto;
+  gap: 20px;
 }
 
 .about__logo {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  place-content: center center;
+  margin: 0 auto;
 }
 
 .logo-white {
@@ -32,13 +35,15 @@
 .about__description-title {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1;
   text-transform: uppercase;
   margin-bottom: 100px;
 }
 
 .about__description-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  font-weight: normal;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
 }

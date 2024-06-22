@@ -10,8 +10,10 @@
 }
 
 .cover__content {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 355px 52px;
+  align-content: end;
+  gap: 135px;
 }
 
 .cover__content-title {
@@ -30,7 +32,7 @@
 
 .accent-span {
   display: block;
-  line-height: 1;
+  line-height: 122px;
   margin-top: 20px;
 }
 
@@ -68,7 +70,7 @@
 
 .cover__content-description-text {
   margin-left: 24px;
-  font-family: 'Raleway';
+  font-family: Raleway, serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 1;
@@ -82,7 +84,7 @@
   height: 51px;
   background: none;
   border: 1px solid white;
-  font-family: 'Raleway';
+  font-family: Raleway, serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
