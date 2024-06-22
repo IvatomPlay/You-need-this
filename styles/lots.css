@@ -17,7 +17,6 @@
 }
 
 .lots__cards-list {
-  height: 563px;
   margin-top: 27px;
   display: flex;
   flex-wrap: wrap;
@@ -25,19 +24,19 @@
   list-style: none;
 }
 
-.card__list-item {
+.cards__list-item {
   flex-grow: 1;
 }
 
-.card__list-item-link {
+.cards__list-item-link {
   display: block;
 }
 
 .card {
+  min-height: 563px;
   position: relative;
   padding: 49px 40px;
   max-width: 334px;
-  height: 100%;
   font-size: 20px;
   display: flex;
   flex-direction: column;

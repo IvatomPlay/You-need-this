@@ -33,12 +33,3 @@ a {
 img {
   width: 100%;
 }
-
-.underline {
-  border-bottom: 1px black solid;
-  text-decoration: none;
-}
-
-.no-circle {
-  list-style: none;
-}

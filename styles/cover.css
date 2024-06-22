@@ -2,7 +2,7 @@
   position: relative;
   padding: 165px 50px 50px;
   min-width: 1100px;
-  height: 757px;
+  min-height: 757px;
   background-image: url(/images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -20,7 +20,7 @@
   margin-bottom: 135px;
   display: flex;
   flex-direction: column;
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 1;
@@ -69,7 +69,7 @@
 
 .cover__content-description-text {
   margin-left: 24px;
-  font-family: Raleway, serif;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 1;
@@ -83,7 +83,7 @@
   height: 51px;
   background: none;
   border: 1px solid white;
-  font-family: Raleway, serif;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 1;
