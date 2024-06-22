@@ -26,10 +26,6 @@
   border-bottom: 1px solid black;
 }
 
-.menu__list-item-link {
-  
-}
-
 .menu__list-item:first-child {
   list-style: none;
   border: none;
