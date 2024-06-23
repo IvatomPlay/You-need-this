@@ -30,7 +30,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 100px;
-  padding-top: 100px;
+  padding: 100px 29px 0 0;
 }
 
 .about__description-title {

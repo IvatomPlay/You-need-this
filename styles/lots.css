@@ -26,6 +26,7 @@
 
 .cards__list-item {
   flex-grow: 1;
+  max-width: 334px;
 }
 
 .cards__list-item-link {
@@ -36,7 +37,6 @@
   min-height: 563px;
   position: relative;
   padding: 49px 40px;
-  max-width: 334px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
