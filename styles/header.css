@@ -21,6 +21,10 @@
   list-style: circle;
 }
 
+.menu__list-item-link {
+  color: black;
+}
+
 .menu__list-item-link_active {
   text-decoration: none;
 }
